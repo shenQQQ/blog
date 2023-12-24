@@ -113,10 +113,10 @@ deploy:
 feed:
   type: rss2
   path: rss2.xml
-  limit: 20
+  limit: 100
   hub:
   content:
-  content_limit: 140
+  content_limit: 3000
   content_limit_delim: ' '
   order_by: -date
   icon: icon.png
